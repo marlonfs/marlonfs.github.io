@@ -1,5 +1,6 @@
 # marlonfs.github.io
-Personal academic website, published via GitHub Pages. 
+Personal academic website, published via GitHub Pages.
+
 Live at: [https://marlonfs.github.io](https://marlonfs.github.io)
 
 ## Structure
