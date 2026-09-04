@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marlon Fernandes de Souza</title>
+<meta name="description" content="Personal academic website of Marlon Fernandes de Souza — research, publications, extension and teaching.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#about" data-tab-link="about">
+      <span class="brand-mark">MFS</span>
+      <span class="brand-name" data-i18n="brand_name">Marlon Fernandes de Souza</span>
+    </a>
+
+    <nav class="tabs" aria-label="Main navigation">
+      <button class="tab-btn is-active" data-tab="about" data-i18n="nav_about">About</button>
+      <button class="tab-btn" data-tab="research" data-i18n="nav_research">Research</button>
+      <button class="tab-btn" data-tab="publications" data-i18n="nav_publications">Publications</button>
+      <button class="tab-btn" data-tab="extension" data-i18n="nav_extension">Extension</button>
+      <button class="tab-btn" data-tab="teaching" data-i18n="nav_teaching">Teaching</button>
+    </nav>
+
+    <div class="header-actions">
+      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language">
+        <span class="lang-opt" data-lang="en">EN</span><span class="lang-sep">/</span><span class="lang-opt" data-lang="pt">PT</span>
+      </button>
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ABOUT -->
+  <section id="about" class="tab-panel is-active" aria-labelledby="nav_about">
+    <div class="about-grid">
+      <div class="avatar" aria-hidden="true">MFS</div>
+      <div>
+        <p class="eyebrow" data-i18n="about_eyebrow">About</p>
+        <h1 data-i18n="brand_name">Marlon Fernandes de Souza</h1>
+        <p class="role" data-i18n="about_role">Researcher &amp; Educator — [Your field / department here]</p>
+        <p class="bio" data-i18n="about_bio">
+          Add a short professional biography here: your academic background, research interests,
+          and what drives your work. Two or three sentences are usually enough for a homepage —
+          save the long version for a CV or a dedicated page.
+        </p>
+        <ul class="link-list">
+          <li><a href="#" data-i18n="about_link_lattes">Lattes / CV (add link)</a></li>
+          <li><a href="#" data-i18n="about_link_orcid">ORCID (add link)</a></li>
+          <li><a href="#" data-i18n="about_link_linkedin">LinkedIn (add link)</a></li>
+          <li><a href="https://github.com/marlonfs" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="tab-panel" aria-labelledby="nav_research">
+    <p class="eyebrow" data-i18n="research_eyebrow">Research</p>
+    <h2 data-i18n="research_title">Featured &amp; current research projects</h2>
+    <p class="section-intro" data-i18n="research_intro">
+      Replace these sample entries with your own ongoing and past research projects.
+    </p>
+
+    <div class="card-grid">
+      <article class="card">
+        <span class="badge badge-ongoing" data-i18n="status_ongoing">Ongoing</span>
+        <h3 data-i18n="research_p1_title">Project title one</h3>
+        <p data-i18n="research_p1_desc">One or two sentences describing the goal, methods, and current stage of this project.</p>
+        <p class="meta" data-i18n="research_p1_meta">2024 – present · Funding agency / partner institution</p>
+      </article>
+
+      <article class="card">
+        <span class="badge badge-ongoing" data-i18n="status_ongoing">Ongoing</span>
+        <h3 data-i18n="research_p2_title">Project title two</h3>
+        <p data-i18n="research_p2_desc">One or two sentences describing the goal, methods, and current stage of this project.</p>
+        <p class="meta" data-i18n="research_p2_meta">2023 – present · Funding agency / partner institution</p>
+      </article>
+
+      <article class="card">
+        <span class="badge badge-done" data-i18n="status_completed">Completed</span>
+        <h3 data-i18n="research_p3_title">Project title three</h3>
+        <p data-i18n="research_p3_desc">One or two sentences describing the goal, methods, and outcome of this project.</p>
+        <p class="meta" data-i18n="research_p3_meta">2021 – 2023 · Funding agency / partner institution</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="tab-panel" aria-labelledby="nav_publications">
+    <p class="eyebrow" data-i18n="publications_eyebrow">Publications</p>
+    <h2 data-i18n="publications_title">Publications</h2>
+    <p class="section-intro" data-i18n="publications_intro">
+      Replace this sample list with your own publications (articles, book chapters, conference papers).
+    </p>
+
+    <ol class="pub-list">
+      <li>
+        <span data-i18n="pub_1">Souza, M. F. (2024). <em>Sample article title goes here</em>. Journal Name, vol(issue), pages.</span>
+        <a href="#" class="pub-link" data-i18n="pub_link">Link / DOI</a>
+      </li>
+      <li>
+        <span data-i18n="pub_2">Souza, M. F., &amp; Coauthor, A. (2023). <em>Another sample publication title</em>. Conference Proceedings, pages.</span>
+        <a href="#" class="pub-link" data-i18n="pub_link">Link / DOI</a>
+      </li>
+      <li>
+        <span data-i18n="pub_3">Souza, M. F. (2022). <em>A third sample publication title</em>. Book Title (Chapter). Publisher.</span>
+        <a href="#" class="pub-link" data-i18n="pub_link">Link / DOI</a>
+      </li>
+    </ol>
+  </section>
+
+  <!-- EXTENSION -->
+  <section id="extension" class="tab-panel" aria-labelledby="nav_extension">
+    <p class="eyebrow" data-i18n="extension_eyebrow">Extension</p>
+    <h2 data-i18n="extension_title">Extension activities</h2>
+    <p class="section-intro" data-i18n="extension_intro">
+      Replace these sample entries with your own outreach, community, and extension work.
+    </p>
+
+    <div class="card-grid">
+      <article class="card">
+        <h3 data-i18n="extension_1_title">Extension activity one</h3>
+        <p data-i18n="extension_1_desc">Short description of the activity, its audience, and impact.</p>
+        <p class="meta" data-i18n="extension_1_meta">2024 · Host institution / community partner</p>
+      </article>
+      <article class="card">
+        <h3 data-i18n="extension_2_title">Extension activity two</h3>
+        <p data-i18n="extension_2_desc">Short description of the activity, its audience, and impact.</p>
+        <p class="meta" data-i18n="extension_2_meta">2023 · Host institution / community partner</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- TEACHING -->
+  <section id="teaching" class="tab-panel" aria-labelledby="nav_teaching">
+    <p class="eyebrow" data-i18n="teaching_eyebrow">Teaching</p>
+    <h2 data-i18n="teaching_title">Teaching</h2>
+    <p class="section-intro" data-i18n="teaching_intro">
+      Replace this sample list with the courses and levels you teach.
+    </p>
+
+    <table class="teaching-table">
+      <thead>
+        <tr>
+          <th data-i18n="teaching_col_course">Course</th>
+          <th data-i18n="teaching_col_level">Level</th>
+          <th data-i18n="teaching_col_period">Period</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-i18n="teaching_1_course">Course name one</td>
+          <td data-i18n="teaching_1_level">Undergraduate</td>
+          <td data-i18n="teaching_1_period">2024 – present</td>
+        </tr>
+        <tr>
+          <td data-i18n="teaching_2_course">Course name two</td>
+          <td data-i18n="teaching_2_level">Graduate</td>
+          <td data-i18n="teaching_2_period">2023 – present</td>
+        </tr>
+        <tr>
+          <td data-i18n="teaching_3_course">Course name three</td>
+          <td data-i18n="teaching_3_level">Undergraduate</td>
+          <td data-i18n="teaching_3_period">2022 – 2023</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p data-i18n="footer_text">&copy; 2026 Marlon Fernandes de Souza. Built with GitHub Pages.</p>
+  </div>
+</footer>
+
+<script src="assets/translations.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
