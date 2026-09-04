@@ -6,6 +6,8 @@
   var VALID_TABS = ["about", "research", "publications", "extension", "teaching"];
   var publicationsData = null;
   var publicationsFailed = false;
+  var researchData = null;
+  var researchFailed = false;
 
   function applyLanguage(lang) {
     var dict = TRANSLATIONS[lang] || TRANSLATIONS.en;
@@ -27,6 +29,7 @@
     try { localStorage.setItem(STORAGE_LANG, lang); } catch (e) {}
 
     renderPublications();
+    renderResearch();
   }
 
   function formatTemplate(str, vars) {
@@ -126,6 +129,81 @@
       });
   }
 
+  function renderResearch() {
+    var status = document.getElementById("research-status");
+    var list = document.getElementById("research-list");
+    if (!status || !list) return;
+
+    var dict = TRANSLATIONS[currentLanguage()] || TRANSLATIONS.en;
+
+    if (researchFailed) {
+      status.textContent = dict.research_error;
+      status.hidden = false;
+      list.hidden = true;
+      return;
+    }
+
+    if (!researchData) {
+      status.textContent = dict.research_loading;
+      status.hidden = false;
+      list.hidden = true;
+      return;
+    }
+
+    status.textContent = formatTemplate(dict.research_updated, {
+      date: formatDate(researchData.generatedAt, currentLanguage())
+    });
+    status.hidden = false;
+    list.hidden = false;
+    list.innerHTML = "";
+
+    researchData.items.forEach(function (item) {
+      var card = document.createElement("article");
+      card.className = "card";
+
+      var badge = document.createElement("span");
+      badge.className = "badge " + (item.status === "ongoing" ? "badge-ongoing" : "badge-done");
+      badge.textContent = item.status === "ongoing" ? dict.status_ongoing : dict.status_completed;
+      card.appendChild(badge);
+
+      var h3 = document.createElement("h3");
+      h3.textContent = item.title;
+      card.appendChild(h3);
+
+      if (item.summary) {
+        var p = document.createElement("p");
+        p.textContent = item.summary;
+        card.appendChild(p);
+      }
+
+      var link = document.createElement("a");
+      link.className = "card-link";
+      link.href = item.link;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = dict.research_link;
+      card.appendChild(link);
+
+      list.appendChild(card);
+    });
+  }
+
+  function loadResearch() {
+    fetch("assets/research.json")
+      .then(function (res) {
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        researchData = data;
+        renderResearch();
+      })
+      .catch(function () {
+        researchFailed = true;
+        renderResearch();
+      });
+  }
+
   function currentLanguage() {
     try {
       var saved = localStorage.getItem(STORAGE_LANG);
@@ -166,6 +244,7 @@
     applyLanguage(currentLanguage());
     showTab(initialTab());
     loadPublications();
+    loadResearch();
 
     document.querySelectorAll(".tab-btn").forEach(function (btn) {
       btn.addEventListener("click", function () {

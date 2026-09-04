@@ -69,32 +69,13 @@
   <section id="research" class="tab-panel" aria-labelledby="nav_research">
     <p class="eyebrow" data-i18n="research_eyebrow">Research</p>
     <h2 data-i18n="research_title">Featured &amp; current research projects</h2>
-    <p class="section-intro" data-i18n="research_intro">
-      Replace these sample entries with your own ongoing and past research projects.
+    <p class="section-intro">
+      <span data-i18n="research_intro">Automatically updated from FAPESP.</span>
+      <a href="https://bv.fapesp.br/pt/pesquisador/705016/marlon-fernandes-de-souza" target="_blank" rel="noopener" data-i18n="research_profile_link">View full profile on FAPESP &#8594;</a>
     </p>
 
-    <div class="card-grid">
-      <article class="card">
-        <span class="badge badge-ongoing" data-i18n="status_ongoing">Ongoing</span>
-        <h3 data-i18n="research_p1_title">Project title one</h3>
-        <p data-i18n="research_p1_desc">One or two sentences describing the goal, methods, and current stage of this project.</p>
-        <p class="meta" data-i18n="research_p1_meta">2024 – present · Funding agency / partner institution</p>
-      </article>
-
-      <article class="card">
-        <span class="badge badge-ongoing" data-i18n="status_ongoing">Ongoing</span>
-        <h3 data-i18n="research_p2_title">Project title two</h3>
-        <p data-i18n="research_p2_desc">One or two sentences describing the goal, methods, and current stage of this project.</p>
-        <p class="meta" data-i18n="research_p2_meta">2023 – present · Funding agency / partner institution</p>
-      </article>
-
-      <article class="card">
-        <span class="badge badge-done" data-i18n="status_completed">Completed</span>
-        <h3 data-i18n="research_p3_title">Project title three</h3>
-        <p data-i18n="research_p3_desc">One or two sentences describing the goal, methods, and outcome of this project.</p>
-        <p class="meta" data-i18n="research_p3_meta">2021 – 2023 · Funding agency / partner institution</p>
-      </article>
-    </div>
+    <p id="research-status" class="pub-status" data-i18n="research_loading">Loading research projects…</p>
+    <div id="research-list" class="card-grid" hidden></div>
   </section>
 
   <!-- PUBLICATIONS -->
