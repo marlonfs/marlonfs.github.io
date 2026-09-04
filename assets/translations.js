@@ -11,10 +11,10 @@ const TRANSLATIONS = {
     nav_teaching: "Teaching",
 
     about_eyebrow: "About",
-    about_role: "Researcher — Geoprocessing, Machine Learning &amp; Agricultural Logistics",
+    about_role: "Professor — Agricultural Logistics, Geoprocessing &amp; Machine Learning",
     about_bio: "My current research uses geoprocessing and machine learning to analyze agricultural logistics and address challenges in agribusiness supply chains. I'm interested in spatiotemporal modeling, spatial statistics, Python, deep learning, transportation networks, graphs, remote sensing, and techniques for handling spatial autocorrelation. I have experience in agricultural commodities trading, logistics, warehousing, GIS, and spatial modeling.",
-    about_link_lattes: "Lattes / CV (add link)",
-    about_link_orcid: "ORCID (add link)",
+    about_link_lattes: "Lattes CV (add link)",
+    about_link_orcid: '<a href="https://orcid.org/0000-0002-7929-5790">ORCID</a>',
     about_link_linkedin: "LinkedIn (add link)",
 
     research_eyebrow: "Research",
@@ -77,10 +77,10 @@ const TRANSLATIONS = {
     nav_teaching: "Ensino",
 
     about_eyebrow: "Sobre",
-    about_role: "Pesquisador — Geoprocessamento, Aprendizado de Máquina e Logística Agrícola",
+    about_role: "Professor — Logística Agrícola, Geoprocessamento e Aprendizado de Máquina",
     about_bio: "Minha pesquisa atual utiliza geoprocessamento e aprendizado de máquina para analisar a logística agrícola e enfrentar desafios nas cadeias de suprimento do agronegócio. Tenho interesse em modelagem espaço-temporal, estatística espacial, Python, aprendizado profundo (deep learning), redes de transporte, grafos, sensoriamento remoto e técnicas para tratamento de autocorrelação espacial. Tenho experiência em comercialização de commodities agrícolas, logística, armazenagem, SIG (GIS) e modelagem espacial.",
     about_link_lattes: "Lattes / Currículo (adicionar link)",
-    about_link_orcid: "ORCID (adicionar link)",
+    about_link_orcid: '<a href="https://orcid.org/0000-0002-7929-5790">ORCID</a>',
     about_link_linkedin: "LinkedIn (adicionar link)",
 
     research_eyebrow: "Pesquisa",
