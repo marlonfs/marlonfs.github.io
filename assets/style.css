@@ -179,6 +179,11 @@ h2 {
 }
 
 .section-intro { color: var(--ink-soft); margin: 0 0 32px; max-width: 60ch; }
+.section-intro a { color: var(--accent); font-weight: 600; text-decoration: none; margin-left: 6px; }
+.section-intro a:hover { text-decoration: underline; }
+
+.pub-status { font-size: 13.5px; color: var(--ink-soft); margin: 0 0 20px; }
+.pub-cited { color: var(--ink-soft); font-weight: 400; }
 
 /* About */
 .about-grid {
