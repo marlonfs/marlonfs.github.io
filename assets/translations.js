@@ -12,7 +12,7 @@ const TRANSLATIONS = {
 
     about_eyebrow: "About",
     about_role: "Professor — Agricultural Logistics, Geoprocessing &amp; Machine Learning",
-    about_affiliation: "Department of Economics, Administration and Sociology, University of São Paulo (ESALQ/USP)",
+    about_affiliation: '<a href="https://www.economia.esalq.usp.br/equipe/docentes">Department of Economics, Administration and Sociology</a>', '<a href="https://en.esalq.usp.br/">Luiz de Queiroz College of Agriculture</a>', '<a href="https://www.linkedin.com/in/marlon-fernandes-de-souza/">University of São Paulo</a>' "(ESALQ/USP)",
     about_bio: "My current research uses geoprocessing and machine learning to analyze agricultural logistics and address challenges in agribusiness supply chains. I'm interested in spatiotemporal modeling, spatial statistics, Python, deep learning, transportation networks, graphs, remote sensing, and techniques for handling spatial autocorrelation. I have experience in agricultural commodities trading, logistics, warehousing, GIS, and spatial modeling.",
     about_link_lattes: '<a href="https://lattes.cnpq.br/2198889653312924">Lattes CV</a>',
     about_link_orcid: '<a href="https://orcid.org/0000-0002-7929-5790">ORCID</a>',
