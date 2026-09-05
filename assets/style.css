@@ -197,15 +197,7 @@ h2 {
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  background: linear-gradient(160deg, var(--accent), #a9614c);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--serif);
-  font-weight: 700;
-  font-size: 22px;
-  letter-spacing: 1px;
+  object-fit: cover;
   box-shadow: var(--shadow);
 }
 
