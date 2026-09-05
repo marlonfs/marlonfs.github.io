@@ -157,7 +157,11 @@
     list.hidden = false;
     list.innerHTML = "";
 
+    var lang = currentLanguage();
+
     researchData.items.forEach(function (item) {
+      var localized = item[lang] || item.en || item.pt;
+
       var card = document.createElement("article");
       card.className = "card";
 
@@ -167,18 +171,18 @@
       card.appendChild(badge);
 
       var h3 = document.createElement("h3");
-      h3.textContent = item.title;
+      h3.textContent = localized.title;
       card.appendChild(h3);
 
-      if (item.summary) {
+      if (localized.summary) {
         var p = document.createElement("p");
-        p.textContent = item.summary;
+        p.textContent = localized.summary;
         card.appendChild(p);
       }
 
       var link = document.createElement("a");
       link.className = "card-link";
-      link.href = item.link;
+      link.href = localized.link;
       link.target = "_blank";
       link.rel = "noopener";
       link.textContent = dict.research_link;

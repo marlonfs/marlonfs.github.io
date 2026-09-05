@@ -1,18 +1,35 @@
 {
-  "generatedAt": "2026-09-04T17:29:31.918Z",
-  "profileUrl": "https://bv.fapesp.br/pt/pesquisador/705016/marlon-fernandes-de-souza",
+  "generatedAt": "2026-09-05T02:56:51.910Z",
+  "profileUrl": {
+    "en": "https://bv.fapesp.br/en/pesquisador/705016/marlon-fernandes-de-souza",
+    "pt": "https://bv.fapesp.br/pt/pesquisador/705016/marlon-fernandes-de-souza"
+  },
   "items": [
     {
       "status": "ongoing",
-      "title": "RouTrip: Uma abordagem integrada para o problema do caixeiro viajante assimétrico, BP.IC",
-      "summary": "Entregas de última milha (last mile) são um dos maiores desafios para pequenas e médias empresas, que carecem tanto de uma equipe dedicada quanto de ferramentas para planejar rotas de entrega eficientes. Programas de computador baseados em algoritmos avançados podem encontrar soluções ótimas ou quase ótimas em tempo de execução reduzido, oferecendo uma alternativa prática ao problema. Est…",
-      "link": "https://bv.fapesp.br/pt/bolsas/244101/routrip-uma-abordagem-integrada-para-o-problema-do-caixeiro-viajante-assimetrico/"
+      "en": {
+        "title": "RouTrip: An integrated approach to the Asymmetric Traveling Salesman Problem, BP.IC",
+        "summary": "Last-mile delivery is one of the most demanding challenges for small and medium-sized enterprises, which frequently lack both a dedicated team and the tools to plan efficient delivery routes. Computer programs powered by advanced algorithms can find optimal or near-optimal solutions in reduced runtime, offering a practical solution to the problem. This research aims to develop a functiona…",
+        "link": "https://bv.fapesp.br/en/bolsas/244101/routrip-an-integrated-approach-to-the-asymmetric-traveling-salesman-problem/"
+      },
+      "pt": {
+        "title": "RouTrip: Uma abordagem integrada para o problema do caixeiro viajante assimétrico, BP.IC",
+        "summary": "Entregas de última milha (last mile) são um dos maiores desafios para pequenas e médias empresas, que carecem tanto de uma equipe dedicada quanto de ferramentas para planejar rotas de entrega eficientes. Programas de computador baseados em algoritmos avançados podem encontrar soluções ótimas ou quase ótimas em tempo de execução reduzido, oferecendo uma alternativa prática ao problema. Est…",
+        "link": "https://bv.fapesp.br/pt/bolsas/244101/routrip-uma-abordagem-integrada-para-o-problema-do-caixeiro-viajante-assimetrico/"
+      }
     },
     {
       "status": "completed",
-      "title": "Análises espaciais para viabilizar a Economia Circular na Plasticultura, BP.PD",
-      "summary": "A plasticultura tem transformado as paisagens agrícolas em algo mais industrial, principalmente na interface entre as áreas rurais e urbanas. De modo que esta atividade pode gerar alguns efeitos ambientais negativos, apesar dos seus benefícios para o desenvolvimento das culturas. Assim, o grupo de trabalho de Logística Reversa e Economia Circular do Centro de Engenharia de Plasticultura (…",
-      "link": "https://bv.fapesp.br/pt/bolsas/218247/analises-espaciais-para-viabilizar-a-economia-circular-na-plasticultura/"
+      "en": {
+        "title": "Spatial analyzes to enable the Circular Economy in Plasticulture, BP.PD",
+        "summary": "Plasticulture has been changing agricultural landscapes into something more industrial, mainly in the interface between rural and urban areas. It can generate some negative environmental effects despite its benefits for crop growth. Thus, the working group of Reverse Logistics and Circular Economy of the Plasticulture Engineering Center (CEP) is researching solutions to support the circul…",
+        "link": "https://bv.fapesp.br/en/bolsas/218247/spatial-analyzes-to-enable-the-circular-economy-in-plasticulture/"
+      },
+      "pt": {
+        "title": "Análises espaciais para viabilizar a Economia Circular na Plasticultura, BP.PD",
+        "summary": "A plasticultura tem transformado as paisagens agrícolas em algo mais industrial, principalmente na interface entre as áreas rurais e urbanas. De modo que esta atividade pode gerar alguns efeitos ambientais negativos, apesar dos seus benefícios para o desenvolvimento das culturas. Assim, o grupo de trabalho de Logística Reversa e Economia Circular do Centro de Engenharia de Plasticultura (…",
+        "link": "https://bv.fapesp.br/pt/bolsas/218247/analises-espaciais-para-viabilizar-a-economia-circular-na-plasticultura/"
+      }
     }
   ]
 }
