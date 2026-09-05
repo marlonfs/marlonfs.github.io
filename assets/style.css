@@ -215,6 +215,16 @@ h2 {
   flex-wrap: wrap;
   gap: 10px 20px;
 }
+.link-list li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.link-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
 .link-list a {
   color: var(--accent);
   text-decoration: none;
