@@ -20,8 +20,9 @@ const TRANSLATIONS = {
 
     research_eyebrow: "Research",
     research_title: "Featured &amp; current research projects",
-    research_intro: "Automatically updated from FAPESP.",
     research_profile_link: "View full profile on FAPESP &#8594;",
+    research_manual_title: "Project title",
+    research_manual_desc: "Add a description of this project here.",
     research_loading: "Loading research projects…",
     research_error: "Could not load research projects right now. Try again later, or view the profile linked above.",
     research_updated: "Last updated {date}",
@@ -87,8 +88,9 @@ const TRANSLATIONS = {
 
     research_eyebrow: "Pesquisa",
     research_title: "Projetos de pesquisa em destaque e atuais",
-    research_intro: "Atualizado automaticamente a partir da FAPESP.",
     research_profile_link: "Ver perfil completo na FAPESP &#8594;",
+    research_manual_title: "Título do projeto",
+    research_manual_desc: "Adicione aqui uma descrição deste projeto.",
     research_loading: "Carregando projetos de pesquisa…",
     research_error: "Não foi possível carregar os projetos de pesquisa agora. Tente novamente mais tarde, ou acesse o perfil pelo link acima.",
     research_updated: "Atualizado em {date}",
