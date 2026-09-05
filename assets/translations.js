@@ -12,7 +12,7 @@ const TRANSLATIONS = {
 
     about_eyebrow: "About",
     about_role: "Professor — Agricultural Logistics, Geoprocessing &amp; Machine Learning",
-    about_affiliation: '<a href="https://www.economia.esalq.usp.br/equipe/docentes">Department of Economics, Administration and Sociology</a>', '<a href="https://en.esalq.usp.br/">Luiz de Queiroz College of Agriculture</a>', '<a href="https://www.linkedin.com/in/marlon-fernandes-de-souza/">University of São Paulo</a>' "(ESALQ/USP)",
+    about_affiliation: '<a href="https://www.economia.esalq.usp.br/en/">Department of Economics, Administration and Sociology</a>, <a href="https://en.esalq.usp.br/">Luiz de Queiroz College of Agriculture</a>, <a href="https://www5.usp.br/english/institutional/">University of São Paulo</a> (ESALQ/USP)',
     about_bio: "My current research uses geoprocessing and machine learning to analyze agricultural logistics and address challenges in agribusiness supply chains. I'm interested in spatiotemporal modeling, spatial statistics, Python, deep learning, transportation networks, graphs, remote sensing, and techniques for handling spatial autocorrelation. I have experience in agricultural commodities trading, logistics, warehousing, GIS, and spatial modeling.",
     about_link_lattes: '<a href="https://lattes.cnpq.br/2198889653312924">Lattes CV</a>',
     about_link_orcid: '<a href="https://orcid.org/0000-0002-7929-5790">ORCID</a>',
@@ -79,7 +79,7 @@ const TRANSLATIONS = {
 
     about_eyebrow: "Sobre",
     about_role: "Professor — Logística Agrícola, Geoprocessamento e Aprendizado de Máquina",
-    about_affiliation: "Departamento de Economia, Administração e Sociologia, Escola Superior de Agricultura Luiz de Queiroz, Universidade de São Paulo (ESALQ/USP)",
+    about_affiliation: '<a href="https://www.economia.esalq.usp.br/">Departamento de Economia, Administração e Sociologia</a>, <a href="https://www.esalq.usp.br/">Escola Superior de Agricultura Luiz de Queiroz</a>, <a href="https://www5.usp.br/">Universidade de São Paulo</a> (ESALQ/USP)',
     about_bio: "Minha pesquisa atual utiliza geoprocessamento e aprendizado de máquina para analisar a logística agrícola e enfrentar desafios nas cadeias de suprimento do agronegócio. Tenho interesse em modelagem espaço-temporal, estatística espacial, Python, aprendizado profundo (deep learning), redes de transporte, grafos, sensoriamento remoto e técnicas para tratamento de autocorrelação espacial. Tenho experiência em comercialização de commodities agrícolas, logística, armazenagem, SIG (GIS) e modelagem espacial.",
     about_link_lattes: '<a href="https://lattes.cnpq.br/2198889653312924">Lattes CV</a>',
     about_link_orcid: '<a href="https://orcid.org/0000-0002-7929-5790">ORCID</a>',
